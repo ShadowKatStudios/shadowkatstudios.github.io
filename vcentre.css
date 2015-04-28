@@ -1,9 +1,5 @@
-#vc-outer {
+#vcentre {
  position: relative;
-}
-#vc-inner {
- position: absolute;
  top: 50%;
- height: 10em;
- margin-top: -5em;
+ transform: translateY(-50%);
 }
