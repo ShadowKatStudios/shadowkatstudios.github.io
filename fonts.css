@@ -1,0 +1,11 @@
+/* SKS extra font loader */
+@import url("http://fonts.googleapis.com/css?family=Eagle+Lake");
+@import url("http://fonts.googleapis.com/css?family=Press+Start+2P");
+
+#hand-writing {
+ font-family: 'Eagle Lake', serif !important;
+}
+
+#pixel {
+ font-family: 'Press Start 2P', serif !important;
+}

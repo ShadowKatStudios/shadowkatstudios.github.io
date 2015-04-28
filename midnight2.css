@@ -1,0 +1,52 @@
+/* Midnight-2 by SKS
+CC-BY-SA */
+
+body {
+ font-size: x-large;
+ background-color: #141414
+}
+div {
+ background-color: inherit
+}
+h1, h2 {
+ background: none #28313E;
+ border-radius: 5px;
+}
+h3, h4 {
+ background: none #2A3731;
+ border-radius: 5px;
+}
+h5, h6 {
+ background: none #372A2A
+ border-radius: 5px;
+}
+
+dt {
+ background-color: #2B3135
+}
+dl, dd {
+ background-color: #232323;
+}
+li, ul {
+ background-color: inherit;
+}
+
+a:link, a:visited, a:hover, a:active {
+ color: #B1CBF7;
+}
+
+ul {
+ list-style-type: circle;
+ list-style-position: inside;
+}
+
+abbr {
+ cursor: help;
+}
+
+body {
+ color: #CCC;
+ border-color: #444;
+ outline-color: #444;
+ font-family: monospace;
+}
