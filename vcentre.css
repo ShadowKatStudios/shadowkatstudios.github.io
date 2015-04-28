@@ -1,0 +1,7 @@
+#vc-outer {
+ position: relative;
+}
+#vc-inner {
+ position: absolute;
+ top: 50%;
+}
