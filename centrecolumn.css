@@ -1,0 +1,7 @@
+#centre-column {
+ width: 96%;
+ margin: 0px auto;
+ text-align: left;
+ padding-bottom: 32767px;
+ margin-bottom: -32767px;
+}
