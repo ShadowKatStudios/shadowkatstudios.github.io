@@ -1,0 +1,45 @@
+/* SKS extra font loader */
+@import url("https://fonts.googleapis.com/css?family=Eagle+Lake");
+/*@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");*/
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono");
+/* @import url("http://izaya.pc-logix.com/fonts.css"); */
+
+@font-face {
+  font-family: 'lain';
+  src: url('/styles/lain.woff') format('woff'),
+       url('/styles/lain.ttf') format('truetype');
+}
+
+#hand-writing {
+ font-family: 'Eagle Lake', monospace !important;
+}
+
+#pixel {
+ font-family: 'VT323', monospace !important;
+}
+
+#lain {
+ font-family: 'lain' monospace !important;
+}
+/*
+h5, h4 {
+ font-size: 112.5%;
+}
+h3 {
+ font-size: 125%;
+}
+h2 {
+ font-size: 137.5%;
+}
+h1 {
+ font-size: 150%;
+}
+*/
+
+@media screen and (max-device-width: 800px), (max-width: 800px) {
+ body {
+  font-size: 125%;
+ }
+}

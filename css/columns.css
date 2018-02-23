@@ -1,0 +1,28 @@
+.centre-column {
+ width: 90%;
+ text-align: left;
+}
+.centre-column, .wrapper {
+ margin: 0px auto;
+ overflow: hidden;
+}
+@media screen and (min-width: 801px) {
+ .left-column, .right-column {
+  width: 49%;
+  text-align: left;
+  padding-bottom: 32767;
+  margin-bottom: -32767px;
+ }
+ .left-column {
+  float: left;
+ }
+ .right-column {
+  float: right;
+ }
+}
+@media screen and (min-width: 1024px) {
+ body {
+  width: 80%;
+  padding-left: 10%;
+ }
+}
